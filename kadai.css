@@ -1,9 +1,22 @@
-.fab{
-    font-size:32px;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
-.position{
-    position:absolute;
-    top:100px;
-    right:40px;
+header{
+    width:100%;
+    height:50px;
+    background-color:#ff9a4b;
+}
+
+.main-visual{
+    width:100%;
+    height:300px;
+}
+
+footer{
+    width:100%;
+    height:50px;
+    background-color:#aaaaaa;
 }
