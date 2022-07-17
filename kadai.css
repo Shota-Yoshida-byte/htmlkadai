@@ -12,17 +12,18 @@ header{
 
 main{
     width:100%;
-    height:400px;
+    height:auto;
     display:flex;
     justify-content:center;
 }
 
 .main-box{
     width:300px;
-    height:300px;
+    height:auto;
     background-color:#eeeeee;
     padding:10px;
-    margin:50px 30px 50px 30px;
+    margin:50px 15px 50px 15px;
+    position:relative;
 }
 
 .main-a{
@@ -52,6 +53,9 @@ h3{
     height:25px;
     background-color:#ff9a4b;
     color:#ffffff;
+    position:absolute;
+    top:0px;
+    left:0px;
 }
 
 footer{
@@ -60,3 +64,28 @@ footer{
     background-color:#aaaaaa;
 }
 
+@media screen and (max-width:768px) {
+
+  main {
+    width: 100%;
+    display:block;
+    justify-content:center;
+  }
+
+  .main-box{
+    margin:50px 5% 50px 5%;
+}
+
+  .main-a{
+    width:90%;
+}
+
+  .main-b{
+    width:90%;
+}
+
+  .main-c{
+    width:90%;
+}
+
+}
